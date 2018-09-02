@@ -1,0 +1,20 @@
+<div class="example-container">
+    <form name="form" [formGroup]="formStudent" (submit)="onSubmit();">
+        <mat-form-field>
+            <input matInput placeholder="NISN" formControlName="nisn">
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+            <input matInput placeholder="Nama" formControlName="name">
+          </mat-form-field>
+          <br>        
+          <mat-form-field>
+            <input matInput placeholder="Jurusan" formControlName="study">
+          </mat-form-field>
+          <br>
+          <div mat-dialog-actions class="pt-24" fxLayout="row" fxLayoutAlign="center center">
+            <button mat-raised-button class="mat-accent mr-16">Simpan</button>
+          </div>
+    </form>
+
+</div>
