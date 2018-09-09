@@ -1,0 +1,23 @@
+.example-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    background-color:#503AAE;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+form {
+    text-align: center;
+}
+
+.example-container > * {
+    border: 1px solid #503AAE;
+    padding: 10px;
+    width: 30%;
+    margin: 0 auto;
+  }

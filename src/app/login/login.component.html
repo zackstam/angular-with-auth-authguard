@@ -1,0 +1,17 @@
+ <div class="example-container">
+   <h1>Login Form </h1>
+  <form name="form" [formGroup]="formLogin" (submit)="onSubmit();">
+      <mat-form-field>
+          <input matInput placeholder="Email" formControlName="email">
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+          <input matInput placeholder="Password" formControlName="password" type="password">
+        </mat-form-field>
+        <br>        
+        <div mat-dialog-actions class="pt-24" fxLayout="row" fxLayoutAlign="center center">
+          <button mat-raised-button class="mat-accent mr-16">Login</button>
+        </div>
+  </form>
+
+</div>
